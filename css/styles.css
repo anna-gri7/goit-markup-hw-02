@@ -26,6 +26,9 @@ body {
 ul {
   list-style-type: none;
 }
+address {
+  font-style: normal;
+}
 .page-nav .link {
   color: #2e2f42;
   text-decoration: none;
@@ -69,6 +72,7 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  font-weight: 500;
 }
 
 .main-banner .btn-banner:hover,
@@ -128,6 +132,14 @@ h2 {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+}
+
+.portfolio .app .name {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 footer {
