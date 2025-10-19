@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
   font-size: 16px;
@@ -9,11 +9,14 @@ body {
 }
 
 .logo {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.17;
   color: #4d5ae5;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 700;
+  letter-spacing: 0.03em;
 }
 
 .logo .logo-span {
@@ -28,7 +31,8 @@ ul {
   text-decoration: none;
   font-weight: 500;
 }
-.page-nav .link:hover {
+.page-nav .link:hover,
+.page-nav .link:focus {
   color: #404bbf;
 }
 .page-nav .link:active {
@@ -36,7 +40,7 @@ ul {
   text-decoration: underline;
 }
 
-.address {
+.add .address {
   color: #434455;
   text-decoration: none;
   font-style: normal;
@@ -49,20 +53,26 @@ ul {
 .main-banner {
   background-color: #2e2f42;
 }
-
-h1 {
+.main-banner .banner-title {
   color: #ffffff;
   font-size: 56px;
   font-weight: 700;
   text-align: center;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
+
 .main-banner .btn-banner {
+  font-family: "Roboto", sans-serif;
   color: #ffffff;
   background-color: #4d5ae5;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 
-.main-banner .btn-banner:hover {
+.main-banner .btn-banner:hover,
+.main-banner .btn-banner:focus {
   background-color: #404bbf;
 }
 
@@ -72,15 +82,52 @@ h2 {
   font-weight: 700;
   text-align: center;
 }
-h3 {
+
+.quality .quality-title {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .team {
   background-color: #f4f4fd;
+}
+
+.team .team-title {
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.team .workers {
+  background-color: #ffffff;
+}
+.team .workers .name {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.team .workers .text {
+  font-size: 16px;
+}
+
+.portfolio .p-title {
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
 footer {
